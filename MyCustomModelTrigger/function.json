@@ -1,0 +1,13 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+        "name": "myblob",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "facture/{name}",
+        "connection": "facturestorage2025_STORAGE"
+      }
+    ]
+  }
+  
