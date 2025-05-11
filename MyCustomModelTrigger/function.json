@@ -6,7 +6,7 @@
         "type": "blobTrigger",
         "direction": "in",
         "path": "facture/{name}",
-        "connection": "facturestorage2025_STORAGE"
+        "connection": "AzureWebJobsStorage"
       }
     ]
   }
